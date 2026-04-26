@@ -1,4 +1,6 @@
-package exercicio1oo.classes;
+package exercicio2oo.testes;
+
+import exercicio2oo.classes.Aluno;
 
 import java.util.Scanner;
 
@@ -29,6 +31,7 @@ public class TestaAluno {
         fulano.nota4 = leitor.nextInt();
         System.out.println("\nDados do Aluno");
         System.out.println("----------------");
+        System.out.println("Nome.....: " + fulano.nome);
         System.out.println("Matrícula: " + fulano.matricula);
         System.out.println("Idade....: " + fulano.idade + " Anos");
         System.out.println("Nota 1...: " + fulano.nota1);
