@@ -16,9 +16,9 @@ public class TestaContaBancaria {
         System.out.print("Saldo:  ");
         nova.saldo = leitor.nextInt();
 
-        System.out.println("Número da Conta...: " + nova.numeroConta);
-        System.out.println("Titular...........: " + nova.titular);
-        System.out.println("Saldo.............: " + nova.saldo);
+        System.out.println("Número da Conta: " + nova.numeroConta);
+        System.out.println("Titular........: " + nova.titular);
+        System.out.println("Saldo..........: " + nova.saldo);
 
     }
 }
