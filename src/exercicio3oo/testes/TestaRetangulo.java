@@ -9,12 +9,12 @@ public class TestaRetangulo {
         Scanner leitor = new Scanner(System.in);
         Retangulo ret =  new Retangulo();
 
-        System.out.print("Altura:  ");
-        ret.altura = leitor.nextInt();
+        System.out.print("Altura: ");
+        ret.setAltura(leitor.nextInt());
 
-        System.out.print("Largura:  ");
-        ret.largura = leitor.nextInt();
+        System.out.print("Largura: ");
+        ret.setLargura(leitor.nextInt());
 
-        System.out.print("Retângulo com as seguintes medidas de altura: " + ret.altura + " e largura: " + ret.largura);
+        System.out.print("Retângulo com as seguintes medidas de altura: " + ret.getAltura() + " e largura: " + ret.getLargura());
     }
 }
