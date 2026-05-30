@@ -1,6 +1,6 @@
-package exercicio2oo.testes;
+package exercicio3oo.testes;
 
-import exercicio2oo.classes.Circulo;
+import exercicio3oo.classes.Circulo;
 
 import java.util.Scanner;
 
@@ -10,8 +10,8 @@ public class TestaCirculo {
         Circulo novo = new Circulo();
 
         System.out.print("Raio:  ");
-        novo.raio = leitor.nextInt();
-        System.out.println("Raio: " + novo.raio);
+        novo.setRaio(leitor.nextDouble());
+        System.out.printf("Raio: %.2f%n", novo.getRaio());
 
 
 
